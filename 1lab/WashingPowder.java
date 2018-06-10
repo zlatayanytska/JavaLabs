@@ -1,6 +1,6 @@
 public class WashingPowder {
 
-    private String price;
+    private int price;
     private String country;
     private String brand;
     private String smell;
@@ -11,14 +11,14 @@ public class WashingPowder {
     public WashingPowder () {
     }
 
-    public WashingPowder(String price, String country, String brand,String smell ) {
+    public WashingPowder(int price, String country, String brand,String smell ) {
         this.price = price;
         this.country = country;
         this.brand = brand;
         this.smell = smell;
     }
 
-    public WashingPowder(String price, String country, String brand,String smell , int weight, int totalWeight) {
+    public WashingPowder(int price, String country, String brand,String smell , int weight, int totalWeight) {
         this.price = price;
         this.country = country;
         this.brand = brand;
@@ -27,7 +27,7 @@ public class WashingPowder {
         this.totalWeight = totalWeight;
     }
 
-    public void setprice(String price) {
+    public void setprice(int price) {
         this.price = price;
     }
 
@@ -67,7 +67,7 @@ public class WashingPowder {
         System.out.println("totalWeight: " + totalWeight + "\n");
     }
 
-    public void resetValues(String price, String country, String brand,String smell , int weight, int totalWeight) {
+    public void resetValues(int price, String country, String brand,String smell , int weight, int totalWeight) {
         this.price = price;
         this.country = country;
         this.brand = brand;
