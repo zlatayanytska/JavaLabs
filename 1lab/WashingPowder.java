@@ -6,9 +6,10 @@ public class WashingPowder {
     private String smell;
     private int weight;
 
-    static int totalWeight;
+    public static int totalWeight;
 
-    WashingPowder () {};
+    public WashingPowder () {
+    }
 
     public WashingPowder(String price, String country, String brand,String smell ) {
         this.price = price;
